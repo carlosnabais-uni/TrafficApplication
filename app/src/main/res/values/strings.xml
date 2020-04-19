@@ -1,0 +1,40 @@
+<resources>
+    <string name="maps_api_key">AIzaSyBxhGKsOavrExlS60FtClCm7kKba4VwYD0</string>
+    <string name="app_name">Traffic Scotland</string>
+
+    <string name="current_incidents">Current Incidents</string>
+    <string name="current_incidents_description">
+        Below you will be able to see any recent road incidents if such information is available.\n\nTo refresh the list, press the button below.
+    </string>
+    <string name="current_incidents_button">Show Latest Incidents</string>
+
+    <string name="planned_works">Planned Works</string>
+    <string name="planned_works_description">Select a date from the picker below.\n\nWhen ready, press the "Show Planned Road Works" button to view all roadworks that currently planned across Scotland for the chosen date.</string>
+    <string name="planned_works_date">Select date to search</string>
+    <string name="planned_works_select_date_view">Select a date</string>
+    <string name="planned_works_button">Show Planned Road Works</string>
+
+    <string name="map_activity">Map View</string>
+
+    <string name="current_works_activity">Current Works</string>
+    <string name="current_works_description">Select a date from the picker below.\n\nWhen ready, press the "Show Current Road Works" button to view all roadworks that currently under progress in Scotland based of the date selected.</string>
+    <string name="current_works_date">Select date to search</string>
+    <string name="current_works_select_date_view">Select a date</string>
+    <string name="current_works_button">Show Current Road Works</string>
+
+    <string name="plan_journey_title">Plan Journey</string>
+    <string name="plan_journey_description">
+        Enter the origin and destination of your journey below.\n\nWhen ready, press the plan journey button to see any incidents and/or roadworks\n\nThe Green marker shows the origin location and the Red marker shows the destination.\n\nThe Orange markers represent all current incidents, whilst the Cyan and Magenta represent current road works and planned road works respectively.
+    </string>
+    <string name="plan_journey_origin">Origin: </string>
+    <string name="plan_journey_destination">Destination: </string>
+    <string name="plan_journey_date">Select date to search</string>
+    <string name="plan_journey_select_date_view">Select a date</string>
+    <string name="plan_journey_button">Plan Journey</string>
+
+    <string name="search_incidents_works_label">Search</string>
+    <string name="search_incidents_works_title">Search Current Works, Planned Works and/or Current Incidents</string>
+    <string name="search_incidents_works_description">Fill the field below to view a list of current works, planned works or current incidents that match your search criteria.</string>
+    <string name="search_incidents_works_search_term">Search term: </string>
+    <string name="search_incidents_works_button">Search</string>
+</resources>

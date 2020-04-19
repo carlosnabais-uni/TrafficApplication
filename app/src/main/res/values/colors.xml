@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="textColor">#7E7E7E</color>
+    <color name="white">#ffffff</color>
+    <color name="action_bar_background_color">#ffffff</color>
+    <color name="action_bar_top_color">#adadad</color>
+    <color name="action_bar_text_color">#0065BF</color>
+    <color name="colorSuccess">#2ECC71</color>
+    <color name="colorWarning">#FFC300</color>
+    <color name="colorDanger">#C0392B</color>
+    <color name="black">#000000</color>
+</resources>

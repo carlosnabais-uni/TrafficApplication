@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/ic_traffic_cone_large_background"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:text="Use the buttons below to explore Traffic Scotland's app functionality."
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="planJourney"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:theme="@style/AppTheme.Button"
+            android:text="Plan Journey" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="currentIncidents"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:theme="@style/AppTheme.Button"
+            android:text="View Current Incidents"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="plannedRoadWorks"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:theme="@style/AppTheme.Button"
+            android:text="View Planned Road Works"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="currentRoadWorks"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:theme="@style/AppTheme.Button"
+            android:text="View Current Road Works"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="searchIncidents"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:theme="@style/AppTheme.Button"
+            android:text="Search Incidents"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
