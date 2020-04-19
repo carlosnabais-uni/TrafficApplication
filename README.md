@@ -8,4 +8,6 @@ For ease of use, please follow the instructions listed below.
 
 3. Select the directory to clone the repository to and then click "Clone".
 
-4. When done, a new prompt window will show. Click "Yes" to open the cloned repo on Android Studio. 
+4. When done, a new prompt window will show. Click "Yes" to open the cloned repo on Android Studio.
+
+At this point, Android Studio will create a build version of the project which can be executed using the built-in emulator.
